@@ -32,10 +32,10 @@ Set the bot token as an environment variable:
 
 ## Functionality  
 
-**/start:** Displays a welcome message and provides a button to access a web form.
-/ToRegister: Displays a custom keyboard with options for registration.
-/close: Closes the custom keyboard.
-Other messages: Replies with a message indicating that the input is not correct.
+`/start:` Displays a welcome message and provides a button to access a web form.  
+`/ToRegister:` Displays a custom keyboard with options for registration.  
+`/close:` Closes the custom keyboard.  
+`Other messages:` Replies with a message indicating that the input is not correct.  
 
 
 ## Customization
