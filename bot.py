@@ -4,12 +4,9 @@ from telebot.types import WebAppInfo
 import os
 
 
-
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 
 bot = telebot.TeleBot(BOT_TOKEN)
-
-
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
@@ -18,8 +15,6 @@ def send_welcome(message):
   markup.add(button)
   bot.send_message(message.chat.id, "Welcome to My Bot... ", reply_markup=markup)
 
-
- 
 @bot.message_handler(commands=["ToRegister"])
 def send_game_message(message):
   markup = types.ReplyKeyboardMarkup(row_width=2, resize_keyboard=True)
