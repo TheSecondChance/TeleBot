@@ -39,6 +39,6 @@ Set the bot token as an environment variable:
 
 
 ## Customization
-Modify the bot's functionality and commands as needed.
-Customize the messages and keyboard options according to your requirements.
-Update the README.md with relevant information about your bot and its usage.
+Modify the bot's functionality and commands as needed.  
+Customize the messages and keyboard options according to your requirements.  
+Update the README.md with relevant information about your bot and its usage.  
