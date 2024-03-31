@@ -27,7 +27,7 @@ Set the bot token as an environment variable:
 ## Run Bot
 
 ```
-    python bot.py
+    python3 bot.py
 ```
 
 ## Functionality  
